@@ -1,29 +1,28 @@
-.masthead {
+.masthead{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     flex-direction: column;
     text-align: center;
     width: 100%;
-    height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
+    height: 100vh;
     overflow: hidden;
     background-size: cover !important;
-    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 38%, rgba(59,18,18,0.65) 100%), url(qijin-xu.png) no-repeat center center scroll;
-  }
-  
-  h1 {
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0)0%,rgba(0,0,0,0)38%, rgba(59,18,18,0.65) 100%, url(/assets/img/20220821_185436.jpg) no-repeat center center scroll)
+}
+
+h1{
     font-style: normal;
     font-weight: bold;
     color: #eee;
     font-size: 11vmin;
     letter-spacing: 0.03em;
-    line-height: 1;
+    line-height: 1em;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
-    margin-bottom: 154px;
-  }
-      
-        
-  button {
+    margin-bottom: 10vh;
+}
+
+button{
     background: #59949b;
     transition: background ease .25s;
     border-radius: 8px;
@@ -32,17 +31,16 @@
     padding: 0.75rem 1.5rem;
     margin: 0;
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
     font-size: 1.2rem;
     cursor: pointer;
     text-align: center;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-  }
-  button:hover {
-    background: #102d2e
-  }
-  button:focus {
+}
+
+button:hover{
+    background-color: #102d2e;
+}
+button:focus{
     outline: 1px solid #fff;
     outline-offset: -4px;
-  }
+}
