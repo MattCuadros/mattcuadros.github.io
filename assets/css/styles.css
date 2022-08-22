@@ -1,6 +1,52 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #000;
+  }
+
+.container{
+    display: flex;
+    width: 100%;
+   
+}
+/* Mis trabajos */
+
+#Mis-trabajos{
+    background-color: #010101;
+  }
+  
+  #Mis-trabajos .image-top {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 900px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+    video{
+      height: 100%;
+      
+    }
+  
+  }
+
 .masthead{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -8,7 +54,7 @@
     height: 100vh;
     overflow: hidden;
     background-size: cover !important;
-    background: radial-gradient(ellipse at center, rgba(0,0,0,0)0%,rgba(0,0,0,0)38%, rgba(59,18,18,0.65) 100%, url(/assets/img/20220821_185436.jpg) no-repeat center center scroll)
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 38%, rgba(26, 6, 6, 0.65) 100%), url(/assets/img/fondoHero.png) no-repeat center center scroll;
 }
 
 h1{
@@ -24,7 +70,7 @@ h1{
 
 button{
     background: #59949b;
-    transition: background ease .25s;
+    transition: /* background */ ease .25s;
     border-radius: 8px;
     display: inline-block;
     border: none;
@@ -35,6 +81,7 @@ button{
     font-size: 1.2rem;
     cursor: pointer;
     text-align: center;
+
 }
 
 button:hover{
@@ -43,4 +90,11 @@ button:hover{
 button:focus{
     outline: 1px solid #fff;
     outline-offset: -4px;
+}
+
+.mc_footer{
+
+    background-color: #000;
+    width: 100%;
+    height: 20vh;
 }
