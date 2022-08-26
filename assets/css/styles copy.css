@@ -133,7 +133,7 @@ button:focus{
   color: #ffba08;
 }
 
-/* nav{
+ nav{
   background-image: url(/assets/img/fondonav.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -146,4 +146,9 @@ nav a, li{
   font-family: 'Six Caps','Oswald','Staatliches', sans-serif !important;
   text-shadow: #6a040f 1px 1px 0.3px !important;
   font-size: xx-large;
-} */
+} 
+
+#about-me{
+  background-color: #000;
+  height: 100vh;
+}
