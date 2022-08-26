@@ -23,7 +23,7 @@
 </head>
 <body>
     <main>
-        <nav class="navbar navbar-expand-lg p-2">
+        <nav class="navbar navbar-expand-lg p-2 w-100">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand"><img class="container" src="./assets/img/Logo2.png" alt="Logo Matias Cuadros"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,8 +73,8 @@
                 </div>
             </div>
         </section>
-        <div class="row">
-            <section id="Acerca-de-mi" class="col-12 text-center">
+        <section id="Acerca-de-mi" class="col-12 text-center">
+            <div class="container-fluid">
                 <h2 class="display-3 fw-bold my-2">Acerca de mi</h2>
                 <p class="my-4">
                     Soy un estudiante del Bootcamp para Desarrollador FullStack impartido por <strong><a class="text-decoration-none" href="https://desafiolatam.com/" target="_blank">Desafío Latam</a></strong> y me destaco por las siguientes habilidades:
@@ -102,11 +102,10 @@
                         </p>
                     </div>
                 </div>
-            </section>
-        </div>
-        <div class="row">
-            <section id="Mis-trabajos" class="col-12 p-5">
-                    <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+            </div>
+        </section>    
+        <section id="Mis-trabajos" class="col-12 p-5">
+            <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
                     <div class="row">
                         <div class="col-12 col-md-4 py-2">
                             <div class="card border rounded-top">
@@ -194,13 +193,12 @@
                             </div>
                         </div>
                     </div>
-            
-            </section>
-        </div>
-        <div class="row">
-            <section id="Contacto" class="col-12 my-5">
-                <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
-                <p class="text-center my-4 d-none d-md-block">Si tienes algún requerimiento, quieres comentar algo sobre mi trabajo o te gustaría que forme parte de tu equipo, por favor completa el formulario a continuación:</p>
+                    
+        </section>    
+        <section id="Contacto" class="col-12 my-5">
+            <div class="container-fluid">
+            <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+            <p class="text-center my-4 d-none d-md-block">Si tienes algún requerimiento, quieres comentar algo sobre mi trabajo o te gustaría que forme parte de tu equipo, por favor completa el formulario a continuación:</p>    
                 <form class="px-2">
                     <div class="row">
                         <div class="col-12 col-md-6 form-group mb-4">
@@ -223,12 +221,17 @@
                             <button class="btn btn-info text-light">Enviar</button>
                         </div>
                     </div>
-                </form>    
-            </section>
-        </div>    
+                </form>
+            </div>                     
+        </section>   
     </main>
-    <footer class="mc_footer d-flex align-items-center justify-content-center">
-        <p class="mb-0 text-center text-light">©2022 Diseñado por Matias Cuadros. All Rights Reserved</p>
+    <footer class="mc_footer">
+        <div class="container-fluid d-flex justify-content-center align-items-center h-100">
+             
+            
+            <p class="mb-0 text-center text-light">©2022 Diseñado por Matias Cuadros. All Rights Reserved</p>
+           
+        </div>
     </footer>
  
     <!-- JavaScript Bundle with Popper -->
