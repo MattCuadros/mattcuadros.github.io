@@ -35,12 +35,14 @@ body {
     color: #373a3c;
   }
   
-  @media (max-width: 900px) {
+  @media (max-width: 600px) {
     #Contacto form label {
       font-weight: 400;
     }
-
-    
+    .masthead{
+      color: peru;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 38%, rgba(26, 6, 6, 0.65) 100%), url(/assets/img/fondo_hero_smalldev.jpg) no-repeat center center scroll !important;
+    }    
     
   
   }
