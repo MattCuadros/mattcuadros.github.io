@@ -27,8 +27,8 @@
                 <div class="container-fluid">
                     <div class="row d-flex">
                         <div class="col-12 ">
-                            <a href="#" class="navbar-brand"><img class="img-fluid px-5 mb-5" src="./assets/img/Logo2.png" alt="Logo Matias Cuadros"></a>
-                        </div>
+                            <a href="#" class="navbar-brand"><img class="img-fluid px-5 mb-5" src="./assets/img/Logo2.png"  alt="Logo Matias Cuadros"></a>
+                        </div><!-- Cambiar logo por uno estilo ferrari -->
                     </div>
                     <div class="row justify-content-end">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,18 +70,176 @@
             </nav>
             
         </header> 
-        <section id="about-me" class="container-fluid">
-            <div>
-                <!-- Imagen de Perfil en Contenedor Circular -->
-                <div>
-                    <img src="./assets/img/fondoHero.png" alt="profile image">
+        <section id="hero-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                            <!-- Imagen de Perfil en Contenedor Circular con css y que tiene animación de aparicion-->
+                            <div class="">
+                            <img id="fotoperfil" src="./assets/img/fotoperfil.jpg" alt="fotoperfil">
+                            </div>
+                    </div>
+                    <div class="col-md-12 col-lg-8">
+                        <div>
+                            <!-- Texto escalonado con subrayado de lineas led colores temáticos y en escalera de posiciones -->
+                            <h1>Fullstack Developer</h1>
+                            <p class="text-center">¡Hola!, Bienvenido a mi Portafolio en GitHub.</p>
+                            <p class="text-end text-underline text-italic">Hi! Welcome to my <span class="display-1">Briefcase</span></p>
+                        </div>
+                    </div>
                 </div>
-                <!-- Texto escalonado con subrayado de lineas led colores temáticos y en escalera de posiciones -->
-                <h1>Fullstack Developer</h1>
-                <p>¡Hola!, Bienvenido a mi Portafolio en GitHub.</p>
-                <p>Hi! Welcome to my <span class="display-1">Portafolio</span></p>
             </div>
-        </section>   
+        </section>
+        <section id="mis-trabajos">
+            <div class="container-fluid">
+                    <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="card border rounded-top">
+                                <div class="image-top border border-secondary rounded-top " style="background-image: url(assets/img/cv_html.PNG); background-size:content; background-position:top"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">HTML</h5>
+                                    <p class="card-text">
+                                        Realicé un <i>Currículum Vitae</i> utilizando solo código HTML.
+                                    </p>
+                                    <a href="https://mattcuadros.github.io/trabajos_bootcamp_cv/" target="_blank"><button type="button" class="btn btn-outline-info">
+                                        Ver más
+                                    </button></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="card">
+                                <div class="image-top border border-secondary rounded-top " style="background-image: url(/assets/img/Css_Landingpage.PNG); background-size:content; background-position:top"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Landing Page con CSS</h5>
+                                    <p class="card-text">
+                                        Landing Page para SnapbackCode. 
+                                    </p>
+                                    <a href="https://mattcuadros.github.io/Desafio2_Landing_page/" target="_blank"><button type="button" class="btn btn-outline-info">
+                                        Ver más
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="card">
+                                <div class="image-top border border-secondary rounded-top " style="background-image: url(./assets/img/Css_Iguana\ Page.PNG); background-size:content; background-position:top"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Posicionamiento con CSS</h5>
+                                    <p class="card-text">
+                                        Realicé una página web informativa sobre las Iguanas, utilizando sólo estilos CSS. 
+                                    </p>
+                                    <a href="https://mattcuadros.github.io/Landing_page_Iguana/" target="_blank"><button type="button" class="btn btn-outline-info">
+                                        Ver más
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="card">
+                                <div class="image-top border border-secondary rounded-top " style="background-image: url(assets/img/Bootstrap_Cuppon.PNG); background-size:contain; background-position:top"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Bootstrap</h5>
+                                    <p class="card-text">
+                                        Realicé una página tipo Cuppon utilizando Bootstrap 5.2 y haciéndola full responsive.
+                                    </p>
+                                    <a href="https://mattcuadros.github.io/cuppon/" target="_blank"><button type="button" class="btn btn-outline-info">
+                                        Ver más
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="card">
+                                <div class="image-top border border-secondary rounded-top " style="background-image: url(assets/img/Github.PNG); background-size:contain; background-position:top"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Terminal y Git</h5>
+                                    <p class="card-text">
+                                        Proyecto Forkeado de Github y modificado con 5 commits.
+                                    </p>
+                                    <a href="https://mattcuadros.github.io/fdsw-github/" target="_blank"><button type="button" class="btn btn-outline-info">
+                                        Ver más
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 py-2">
+                            <div class="card">
+                                <div class="image-top border border-secondary rounded-top " style="background-image: url(assets/img/portafolio.PNG); background-size:contain; background-position:top"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Portafolio GitHub</h5>
+                                    <p class="card-text">
+                                        Portafolio de mis proyectos en Github
+                                    </p>
+                                    <a href="https://mattcuadros.github.io/" target="_blank"><button type="button" class="btn btn-outline-info">
+                                        Ver más
+                                    </button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section id="mis-habilidades"> <!-- hacer carrousel de bootstrap -->
+            <div class="container-fluid"><h2 class="display-4 fw-bold text-center text-light mb-3">Mis Habilidades</h2></div>
+                <div class="carousel slide" id="carousel_habilities" data-bs-interval="3500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel_habilities" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel_habilities" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel_habilities" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel_habilities" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carousel_habilities" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/fondocarousel copia.png" class="d-block w-50" alt="">
+                            <div class="carousel-caption d-block d-flex flex-column h-100 justify-content-center">
+                                <span><i class="fa-brands fa-html5 fa-4x"></i></span>
+                                <h2>HTML:5</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/fondocarousel copia.png" class="d-block w-50" alt="">
+                            <div class="carousel-caption d-block d-flex flex-column h-100 justify-content-center">
+                                <span><i class="fa-brands fa-css3-alt fa-4x"></i></span>
+                                <h2>CSS</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/fondocarousel copia.png" class="d-block w-50" alt="">
+                            <div class="carousel-caption d-block d-flex flex-column h-100 justify-content-center">
+                                <span ><i class="fa-brands fa-bootstrap fa-4x"></i></span>
+                                <h2>Bootstrap</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/fondocarousel copia.png" class="d-block w-50" alt="">
+                            <div class="carousel-caption d-block d-flex flex-column h-100 justify-content-center">
+                                <span><i class="fa-brands fa-git-alt fa-4x"></i></span>
+                                <h2>Git</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/fondocarousel copia.png" class="d-block w-50" alt="">
+                            <div class="carousel-caption d-block d-flex flex-column h-100 justify-content-center">
+                                <span><i class="fa-brands fa-github fa-4x"></i></span>
+                                <h2>GitHub</h2>
+                            </div>
+                        </div>
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_habilities" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                        </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel_habilities" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                      </button>
+                </div>
+            
+        </section>  
     </main>    
     <footer></footer>
         <!-- JAVASCRIPT -->
