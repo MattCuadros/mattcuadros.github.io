@@ -48,22 +48,46 @@ nav a, li{
 
 #hero-section{
   background-color: #000;
-  height: 100vh;
-  
-}
-#fotoperfil{
-  clip-path: circle(40% at 50% 50%);
-  width: 100%;
-  max-width: 400px !important;
-  height: 100%;
-  padding: 0%;
-  display: block;
+  min-height: 100vh;
 }
 
 #hero-section{
+  font-family: /* 'Six Caps', */'Oswald','Staatliches', sans-serif !important;
+  color: #fff;
+  font-size: small;
+}
+h1{
   font-family: 'Six Caps','Oswald','Staatliches', sans-serif !important;
   color: #fff;
 }
+
+
+#fotoperfil{
+  /* clip-path: circle(40% at 50% 50%); */
+  width: 100%;
+  max-width: 400px !important;
+  border-radius: 50%;
+  height: 100%;
+  padding: 10%;
+  display: block;
+  opacity: .3;
+  transition: ease-in-out 1s;
+}
+#fotoperfil:hover{
+  /* clip-path: circle(40% at 50% 50%); */
+  width: 100%;
+  max-width: 400px !important;
+  border-radius: 50%;
+  height: 100%;
+  padding: 10%;
+  display: block;
+  opacity: 1;
+  transition: ease-in-out 1s;
+}
+
+
+
+
 #mis-habilidades{
   min-height: 50vh;
   background-color: #9d0208;
@@ -73,4 +97,11 @@ nav a, li{
 #mis-trabajos{
   min-height: 100vh;
   background-color: #dc2f02;
+}
+
+#mis-trabajos .image-top {
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
 }
