@@ -9,6 +9,12 @@ body {
     width: 100%;
    
 }
+/* Acerca de Mi */
+
+#acerca-de-mi{
+  width: 100%;
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos{
@@ -29,19 +35,15 @@ body {
     color: #373a3c;
   }
   
-  @media (max-width: 900px) {
+  @media (max-width: 600px) {
     #Contacto form label {
       font-weight: 400;
     }
-  
-    .navbar-brand{
-      width: 100px;
-    }
-  
-    video{
-      height: 100%;
-      
-    }
+    .masthead{
+      color: peru;
+      background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 38%, rgba(26, 6, 6, 0.65) 100%), url(/assets/img/fondo_hero_smalldev.jpg) no-repeat center center scroll !important;
+    }    
+    
   
   }
 
@@ -54,7 +56,7 @@ body {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-size: cover !important;
+    background-size: 100% !important;
     background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 38%, rgba(26, 6, 6, 0.65) 100%), url(/assets/img/fondoHero.png) no-repeat center center scroll;
 }
 
@@ -131,17 +133,3 @@ button:focus{
   color: #ffba08;
 }
 
-/* nav{
-  background-image: url(/assets/img/fondonav.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-}
-nav a, li{
-  text-decoration: none !important;
-  color: #9d0208 !important;
-  font-family: 'Six Caps','Oswald','Staatliches', sans-serif !important;
-  text-shadow: #6a040f 1px 1px 0.3px !important;
-  font-size: xx-large;
-} */
