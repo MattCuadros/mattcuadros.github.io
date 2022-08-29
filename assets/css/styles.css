@@ -133,3 +133,8 @@ button:focus{
   color: #ffba08;
 }
 
+#mis-habilidades{
+  min-height: 50vh;
+  background-color: #9d0208;
+
+}
